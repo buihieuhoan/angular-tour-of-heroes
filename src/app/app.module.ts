@@ -6,16 +6,17 @@ import { HeroesComponent } from "./heroes/heroes.component";
 import { AppComponent } from "./app.component";
 
 @NgModule ({
-    imports: [
-        FormsModule,
-        BrowserModule
-    ],
     declarations: [
         AppComponent,
         HeroesComponent,
     ],
     providers: [],
-    bootstrap: [AppComponent]
+    bootstrap: [AppComponent],
+    imports: [
+        FormsModule,
+        BrowserModule,
+        HeroesComponent
+    ]
 })
 
 export class AppModule { }
