@@ -8,6 +8,7 @@ import { HeroesComponent } from './heroes/heroes.component';
   styleUrls: ['./app.component.css'],
   imports: [HeroesComponent],
 })
+
 export class AppComponent {
   title = 'Tour of Heroes';
 }
